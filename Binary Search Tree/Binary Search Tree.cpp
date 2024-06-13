@@ -32,7 +32,8 @@ public:
 		search(element, parent, currentNode);  //locate the node which will be the parent of the new node
 
 		if (parent == nullptr) {    //if the tree is empty
-
+			ROOT = newNode;  //set the new node as the root
+			return;
 	}
 }
 };
