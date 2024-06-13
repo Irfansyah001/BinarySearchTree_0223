@@ -21,7 +21,9 @@ public:
 	BinaryTree() {
 		ROOT = nullptr; //initially ROOT is null
 	}
+	void Insert(string element) { //insert a node to the tree
 
+	}
 };
 
 int main()
