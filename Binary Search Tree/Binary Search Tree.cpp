@@ -34,8 +34,12 @@ public:
 		if (parent == nullptr) {    //if the tree is empty
 			ROOT = newNode;  //set the new node as the root
 			return;
+		}
+
+		if (element < parent->info) { //if the new node is less than the parent
+
+		}
 	}
-}
 };
 
 int main()
