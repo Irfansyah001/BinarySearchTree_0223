@@ -45,6 +45,10 @@ public:
 	}
 };
 
+void search(string element, Node*& parent, Node*& currentNode) {
+
+}
+
 int main()
 {
 }
