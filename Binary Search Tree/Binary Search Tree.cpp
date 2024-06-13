@@ -39,6 +39,10 @@ public:
 		if (element < parent->info) { //if the new node is less than the parent
 			parent->leftchild = newNode;    //set the new node as the left child of the parent
 		}
+		else if (element > parent->info) { //if the new node is greater than the parent
+
+
+		}
 	}
 };
 
