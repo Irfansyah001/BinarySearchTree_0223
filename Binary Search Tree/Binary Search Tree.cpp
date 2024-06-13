@@ -40,8 +40,7 @@ public:
 			parent->leftchild = newNode;    //set the new node as the left child of the parent
 		}
 		else if (element > parent->info) { //if the new node is greater than the parent
-
-
+			parent->rightchild = newNode;   //set the new node as the right child of the parent
 		}
 	}
 };
