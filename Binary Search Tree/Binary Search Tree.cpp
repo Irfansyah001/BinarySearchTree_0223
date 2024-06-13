@@ -26,6 +26,10 @@ public:
 		newNode->info = element; //set the value of the node
 		newNode->leftchild = nullptr; //set the left child to null
 		newNode->rightchild = nullptr; //set the right child to null
+
+		Node* parent = nullptr;
+		Node* currentNode = nullptr;
+		search(element, parent, currentNode);  //locate the node which will be the parent of the new node
 	}
 };
 
