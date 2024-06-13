@@ -148,10 +148,9 @@ public:
 				break;
 			}
 			case '5':
-			{
 				return 0;
-			}
-			default: {
+			default:
+			{
 				cout << "Invalid option" << endl;
 				break;
 			}
